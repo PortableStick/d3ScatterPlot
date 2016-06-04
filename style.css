@@ -1,0 +1,53 @@
+.chart svg {
+  background: #eee;
+}
+.axis text {
+    font-family: 'Open Sans' ,sans-serif;
+    font-size: 12px;
+}
+
+.title {
+  font-family: 'Lora', serif;
+}
+
+.x.axis path,
+.y.axis path{
+  stroke: black;
+}
+
+
+.label {
+  font-size: 1.2em;
+  font-family: 'Lora', serif;
+  font-weight: 700;
+}
+
+.tooltip {
+    position: absolute;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 0.2em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-size: 1em;
+    background: #758876;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+    color: white;
+}
+
+.tooltip h1 {
+  font-size: 1.4em;
+  font-weight: 700;
+  font-family: 'Lora', serif;
+}
+
+.tooltip h2,
+.tooltip p{
+  font-size: 1em;
+  line-height: .4em;
+  font-family:'Open Sans', sans-serif;
+}
+
