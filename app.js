@@ -31,7 +31,7 @@ function scatterplotChart() {
             var tooltip = d3.select(this).append('div').classed('tooltip', true)
                 .style({ 'opacity': 0 });
             var chartData = data.map(function(d, i) {
-                return [xValue.call(chartData, d, i), yValue.call(chartData, d, i), d.Genre];
+                return [xValue.call(data, d, i), yValue.call(data, d, i), d.Genre];
             });
 
 
